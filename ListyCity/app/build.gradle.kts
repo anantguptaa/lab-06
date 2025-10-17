@@ -49,7 +49,7 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
-    implementation(files("/Users/anant_gupta/Library/Android/sdk/platforms/android-36/android.jar"))
+    // implementation(files("/Users/anant_gupta/Library/Android/sdk/platforms/android-36/android.jar"))
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.0.1")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.0.1")
